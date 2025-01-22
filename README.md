@@ -1,6 +1,6 @@
 # Testig project
 
-A concept of Netflix with 3D scene. Frontend project.
+A concept of Netflix with 3D scene. Frontend project. [Build version](https://pensativa.github.io/netflix-test-project/build/index.html)
 
 ### Installation
 

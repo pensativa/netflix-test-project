@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/src/images/nficon2016.ico"/>
+  <title>Netflix Homepage</title>
+  <style>
+    #scene {
+      position: fixed;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" class="hidden">
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" id="fe_search">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M29.249 26.6941L38.8881 36.3332C39.2269 36.6723 39.4172 37.132 39.417 37.6113C39.4169 38.0906 39.2263 38.5502 38.8872 38.889C38.5482 39.2278 38.0885 39.4181 37.6092 39.4179C37.1298 39.4177 36.6702 39.2272 36.3314 38.8881L26.6923 29.249C23.8107 31.4808 20.1872 32.5311 16.5588 32.1861C12.9304 31.8412 9.56972 30.1269 7.16038 27.3921C4.75104 24.6573 3.47404 21.1073 3.58918 17.4644C3.70431 13.8214 5.20293 10.3592 7.78016 7.78194C10.3574 5.20471 13.8196 3.7061 17.4626 3.59096C21.1055 3.47583 24.6555 4.75282 27.3903 7.16217C30.1252 9.57151 31.8394 12.9322 32.1844 16.5606C32.5293 20.189 31.479 23.8125 29.2472 26.6941H29.249ZM17.9167 28.6667C20.7678 28.6667 23.5021 27.5341 25.5181 25.5181C27.5341 23.5021 28.6667 20.7678 28.6667 17.9167C28.6667 15.0656 27.5341 12.3313 25.5181 10.3153C23.5021 8.29926 20.7678 7.16668 17.9167 7.16668C15.0656 7.16668 12.3313 8.29926 10.3153 10.3153C8.29927 12.3313 7.16668 15.0656 7.16668 17.9167C7.16668 20.7678 8.29927 23.5021 10.3153 25.5181C12.3313 27.5341 15.0656 28.6667 17.9167 28.6667Z" fill="white"></path>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="play">
+      <path d="M16 2C8.26875 2 2 8.26875 2 16C2 23.7313 8.26875 30 16 30C23.7313 30 30 23.7313 30 16C30 8.26875 23.7313 2 16 2ZM20.5031 16.2156L13.6781 21.1812C13.6407 21.2081 13.5966 21.2242 13.5507 21.2276C13.5047 21.2311 13.4587 21.2218 13.4177 21.2008C13.3767 21.1798 13.3422 21.1479 13.3182 21.1087C13.2941 21.0694 13.2813 21.0242 13.2812 20.9781V11.0531C13.2811 11.007 13.2937 10.9616 13.3178 10.9222C13.3418 10.8828 13.3762 10.8508 13.4173 10.8298C13.4584 10.8087 13.5046 10.7995 13.5506 10.8031C13.5966 10.8066 13.6408 10.8229 13.6781 10.85L20.5031 15.8125C20.5354 15.8353 20.5617 15.8655 20.5798 15.9006C20.598 15.9357 20.6075 15.9746 20.6075 16.0141C20.6075 16.0536 20.598 16.0925 20.5798 16.1275C20.5617 16.1626 20.5354 16.1928 20.5031 16.2156Z" fill="white"></path>
+    </symbol>
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" id="arrow">
+      <circle cx="20.5" cy="20.5" r="19.7313" stroke="white" stroke-width="1.5375"></circle>
+      <path d="M17.5959 11.7875L15.5485 13.8349L22.199 20.5L15.5485 27.1651L17.5959 29.2125L26.3084 20.5L17.5959 11.7875Z" fill="white"></path>
+    </symbol>
+  </svg>
+  <header class="header">
+    <div class="container flex">
+        <div class="header__left flex animate">
+            <a class="header__logo" href="/">
+                <img src="/src/images/netflix-logo.webp" width="156" height="44" alt="Red text logo Netflix">
+            </a>
+            <p class="header__date">Friday July 8th</p>
+        </div>
+        <div class="header__right flex animate">
+            <button class="header__search" type="button" title="Search">
+              <svg width="43" height="43">
+                <use xlink:href="#fe_search"></use>
+              </svg>                 
+            </button>
+            <img src="/src/images/avatar.webp" alt="Profile" width="74" height="74">
+        </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+        <div class="main__tags flex animate">            
+            <p class="main__tag">Drama</p>
+            <p class="main__tag">Thriller</p>
+            <p class="main__tag">Supernatural</p>
+        </div>
+        <h1 class="main__title animate">Stranger Things</h1>
+        <div class="main__details flex animate">
+            <p class="main__detail">2019</p>
+            <p class="main__detail">DIRECTOR: <span class="grey">Shawn Levy</span></p>
+            <p class="main__detail">seasons: <span class="grey">3 (5 Episodes)</span></p>
+        </div>
+        <p class="main__content grey animate">In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.</p>
+        <img class="main__rating animate" src="/src/images/stars.svg" alt="Rating 3 stars" width="212" height="34">
+        <div class="main__buttons flex">
+            <button class="button button--primary button--icon animate">STREAM NOW
+              <svg width="32" height="32">
+                <use xlink:href="#play"></use>
+              </svg>
+            </button>
+            <button class="button button--secondary animate" type="button">ALL EPISODES</button>
+        </div>
+        <h2 class="slider__title animate">POPULAR THIS WEEK</h2>
+        <div class="slider swiper animate">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/src/images/slide1.webp" alt="Man VS bee" width="144" height="210">
+            </div>
+            <div class="swiper-slide">
+              <img src="/src/images/slide2.webp" alt="Breaking bad" width="144" height="210">
+            </div>
+            <div class="swiper-slide">
+              <img src="/src/images/slide3.webp" alt="The Rain" width="144" height="210">
+            </div>
+            <div class="swiper-slide">
+              <img src="/src/images/slide4.webp" alt="Life in a year" width="144" height="210">
+            </div>
+            <div class="swiper-slide">
+              <img src="/src/images/slide5.webp" alt="Money heist: Korea" width="144" height="210">
+            </div>
+            <div class="swiper-slide">
+              <img src="/src/images/slide6.webp" alt="Squid game" width="144" height="210">
+            </div>
+          </div>
+          <div class="swiper-button-next slider__arrow">
+            <svg width="41" height="41">
+              <use xlink:href="#arrow"></use>
+            </svg> 
+          </div>
+          <div class="swiper-button-prev slider__arrow">
+            <svg width="41" height="41">
+              <use xlink:href="#arrow"></use>
+            </svg>  
+          </div>
+        </div>
+        <div class="age animate-right">16+</div>
+    </div>
+  </main>
+  <div id="scene"></div>
+</body>
+</html>

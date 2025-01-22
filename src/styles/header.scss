@@ -1,0 +1,48 @@
+.header .container {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2.625rem 2rem  2.625rem 5rem;
+    position: relative;
+    z-index: 1;
+
+    @media (width <= 1200px) {
+      padding: 2rem 1.5rem;
+    }
+}
+
+.header__left {
+  gap: 1rem;
+}
+
+.header__date {
+  font-family: var(--accent-font);
+  font-size: 1.5rem;
+  color: var(--grey-color);
+  line-height: 1.75rem;
+}
+
+.header__date::before {
+  content: "";
+  width: 3px;
+  height: 1.75rem;
+  background-color: var(--text-color);
+  display: inline-block;
+  margin-right: 1.5rem;
+  vertical-align: bottom;
+}
+
+.header__right {
+  gap: 2.8rem;
+}
+
+.header__search {
+  background: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.header__search:hover {
+  opacity: 0.6;
+}

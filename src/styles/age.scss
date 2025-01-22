@@ -1,0 +1,25 @@
+.age {
+    width: 10.875rem;
+    height: 4.125rem;
+    background-color: rgb(255 255 255 / 50%);
+    border-left: 2rem solid var(--accent-color);
+    font-size: 1.5rem;
+    line-height: 1.42;
+    padding: 0.9rem 1.625rem;
+    position: fixed;
+    bottom: 9.5vh;
+    right: 0;
+
+    @media (width <= 1200px) {
+        width: 7rem;
+        border-width: 1rem;
+    }
+
+    @media (width <= 75rem) {
+        border-width: 5px;
+        width: auto;
+        font-size: 1rem;
+        padding: 0.5rem;
+        height: auto;
+    }
+}

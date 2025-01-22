@@ -1,0 +1,40 @@
+.button {
+    display: inline-block;
+    font-size: 1.375rem;
+    line-height: 1;
+    font-weight: 500;
+    padding: 1rem 2.125rem;
+    border-radius: 0.625rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+    border: none;
+    transition: 0.4s ease;
+    min-width: 17rem;
+    text-align: center;
+
+    &:hover {
+        background-color: rgb(255 255 255 / 30%);
+    }
+}
+  
+.button--primary {
+    background-color: var(--accent-color);
+}
+
+  
+.button--secondary {
+    background-color: transparent;
+    border: 3px solid var(--text-color);
+
+    &:hover {
+        border-color: rgb(255 255 255 / 30%);
+    }
+}
+  
+.button--icon {
+    padding: 1.06rem 2.125rem 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    line-height: 2rem;
+}

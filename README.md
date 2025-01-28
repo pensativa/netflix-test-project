@@ -1,32 +1,17 @@
-# Testig project
+# Netflix Test Project 🎬  
 
-A concept of Netflix with 3D scene. Frontend project. [Build version](https://pensativa.github.io/netflix-test-project/build/index.html)
+A concept project inspired by Netflix, featuring a **3D scene** built with **Three.js** and smooth animations powered by **GSAP**.
 
-### Installation
+[View Build Version](https://pensativa.github.io/netflix-test-project/build/index.html)
 
-```sh
-npm install
-```
-
-### Start Dev Server
-
-```sh
-npm start
-```
-
-### Build Prod Version
-
-```sh
-npm run build
-```
 
 ### Features:
 
-- ES6 Support via [babel](https://babeljs.io/) (v7)
-- JavaScript Linting via [eslint](https://eslint.org/)
-- SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-- Autoprefixing of browserspecific CSS rules via [postcss](https://postcss.org/) and [postcss-preset-env](https://github.com/csstools/postcss-preset-env)
-- Style Linting via [stylelint](https://stylelint.io/)
-- 3D sceen via [ThreeJS](https://threejs.org/)
-- Onload animation via [gsap](https://gsap.com/)
-- Slider via [SwiperJS](https://swiperjs.com/)
+- **ES6 Support** via [babel](https://babeljs.io/)
+- **JavaScript Linting** with  [eslint](https://eslint.org/)
+- **SASS Support** using  [sass-loader](https://github.com/jtangelder/sass-loader)
+- **Autoprefixing** for browser compatibility via [PostCSS](https://postcss.org/) and [postcss-preset-env](https://github.com/csstools/postcss-preset-env)
+- **Style Linting** with [stylelint](https://stylelint.io/)
+- **3D sceen** powered by [ThreeJS](https://threejs.org/)
+- **Onload animation** created with [gsap](https://gsap.com/)
+- **Interactive Slider** implemented using [SwiperJS](https://swiperjs.com/)

@@ -61,7 +61,7 @@
     "core-js": "^3.26.1",
     "gsap": "^3.12.7",
     "stylelint-selector-bem-pattern": "^4.0.1",
-    "swiper": "^11.2.1",
+    "swiper": "^11.2.2",
     "three": "^0.172.0",
     "three-orbit-controls": "^82.1.0"
   }
